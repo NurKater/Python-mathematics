@@ -38,3 +38,17 @@ Equation(lambda x: 2 * x + 3, lambda y: y)
  >>> X = -501, Y = -999
  >>> X = -500, Y = -997 ...
 """
+
+def interval(min,max):
+    for x in range(min,max):
+        print(x)
+"""
+Exemple
+interval(10,15)
+>>>10
+>>>11
+>>>12
+>>>13
+>>>14
+>>>15
+"""
