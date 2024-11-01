@@ -51,4 +51,20 @@ interval(10,15)
 >>>13
 >>>14
 >>>15
+<<<<<<< Updated upstream
 """
+=======
+"""
+
+def sort_numbers(numbers):
+    print(sorted(numbers))
+
+"""
+number = [3,12,32,5,1,5,23,46]
+sort_numbers(number)
+>>> [1, 3, 5, 5, 12, 23, 32, 46]
+"""
+
+def sum_of_squares(numbers):
+    return sum(x**2 for x in numbers)
+>>>>>>> Stashed changes
